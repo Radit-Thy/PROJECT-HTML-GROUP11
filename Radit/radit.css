@@ -168,3 +168,6 @@ form{
     margin: 10px;
     padding-top: 10px;
 }
+input{
+    outline: 0;
+}

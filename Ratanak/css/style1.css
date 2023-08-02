@@ -74,6 +74,7 @@ form{
     margin: 10px;
     border:none;
     border-bottom: 1px solid gray;
+    outline: 0;
 }
 
 /* .Login-body */

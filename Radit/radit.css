@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: skyblue;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    width: 50%;
+    height: 80vh;
+    border-radius: 10px;
+    display: flex;
+    background: white;
+    border-radius: 20px;
+}
+
+
+/* .form.logo */
+
+
+.form-logo{
+    width: 60%;
+    background: teal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    border-radius: 20px 0px 0px 20px;
+}
+.form-logo img{
+    margin-top: 40px;
+}
+.form-logo .PN{
+    margin-top: 20px;
+}
+
+/* .form-Login */
+
+
+.form-Login{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* .Login-head */
+
+
+.Login-head{
+    margin-top: 50px;
+    flex: 1;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: teal;
+    font-weight: bold;
+}
+
+
+/* .Login-body */
+
+
+
+.Login-body{
+    flex: 2;
+    width: 100%;
+    padding-bottom: 10%;
+    display: flex;
+    flex-direction: column;
+}
+.User-name{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.User-name input{
+    padding: 5px;
+    margin: 10px;
+    border:none;
+    border-bottom: 1px solid gray;
+}
+.User-example{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.User-example input{
+    padding: 5px;
+    margin: 10px;
+    border:none;
+    border-bottom: 1px solid gray;
+}
+.User-Password2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.User-Password2 input{
+    padding: 5px;
+    margin: 10px;
+    border:none;
+    border-bottom: 1px solid gray;
+}
+
+
+.User-Password{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.User-Password input{
+    padding: 5px;
+    margin: 10px;
+    border:none;
+    border-bottom: 1px solid gray;
+}
+
+.check-box{
+    width: 100%;
+    display: flex;
+    margin: 10px;
+    gap: 0.5em;
+}
+
+
+
+/* .Login-footer */
+
+
+
+.Login-footer{
+    width: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10%;
+}
+.Login{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.submit{
+    padding: 10px;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 20px;
+    border: 2px solid teal;
+    background: white;
+}
+.countinuo{
+    width: 100%;
+    margin: 10px;
+    padding-top: 10px;
+}

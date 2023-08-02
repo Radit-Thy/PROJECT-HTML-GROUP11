@@ -74,6 +74,9 @@ form{
     margin: 10px;
     border:none;
     border-bottom: 1px solid gray;
+    
+}
+input{
     outline: 0;
 }
 
